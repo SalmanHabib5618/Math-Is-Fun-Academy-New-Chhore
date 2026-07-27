@@ -1,0 +1,6 @@
+{
+  "name": "Math Is Fun Academy",
+  "description": "A responsive full-stack tuition center portal for Math Is Fun Academy to manage notes, tests, attendance, fees, and results, and students to access schedules, track progress, and download materials.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

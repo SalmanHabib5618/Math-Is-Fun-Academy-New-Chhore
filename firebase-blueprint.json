@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "users": {
+      "title": "Users",
+      "description": "Academy user profiles",
+      "properties": {
+        "userId": { "type": "string" },
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "role": { "type": "string" }
+      }
+    },
+    "attendance": {
+      "title": "Attendance",
+      "description": "Student attendance logs",
+      "properties": {
+        "studentId": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string" }
+      }
+    },
+    "notes": {
+      "title": "Study Notes",
+      "description": "Study materials and notes",
+      "properties": {
+        "title": { "type": "string" },
+        "subject": { "type": "string" },
+        "grade": { "type": "string" }
+      }
+    },
+    "tests": {
+      "title": "Tests",
+      "description": "Tests and test scores",
+      "properties": {
+        "title": { "type": "string" },
+        "subject": { "type": "string" },
+        "totalMarks": { "type": "number" }
+      }
+    },
+    "fees": {
+      "title": "Fee Invoices",
+      "description": "Student fee invoices",
+      "properties": {
+        "studentId": { "type": "string" },
+        "amount": { "type": "number" },
+        "status": { "type": "string" }
+      }
+    },
+    "announcements": {
+      "title": "Announcements",
+      "description": "Academy notices",
+      "properties": {
+        "title": { "type": "string" },
+        "content": { "type": "string" },
+        "date": { "type": "string" }
+      }
+    }
+  }
+}

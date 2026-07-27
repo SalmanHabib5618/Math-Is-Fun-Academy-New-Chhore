@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "admin-main",
+      "email": "sh7788059@gmail.com",
+      "name": "Salman Habib",
+      "role": "admin",
+      "passwordHash": "4410775421191"
+    },
+    {
+      "id": "teacher-sarah",
+      "email": "teacher@tuition.com",
+      "name": "Mrs. Sarah Connor",
+      "role": "teacher",
+      "passwordHash": "teacher123"
+    },
+    {
+      "id": "student-john",
+      "email": "student@tuition.com",
+      "name": "John Connor",
+      "role": "student",
+      "passwordHash": "student123",
+      "class": "Grade 10",
+      "batch": "Advanced Physics & Calculus",
+      "parentContact": "+92 300 1234567"
+    },
+    {
+      "id": "student-lily",
+      "email": "lily@tuition.com",
+      "name": "Lily Evans",
+      "role": "student",
+      "passwordHash": "student123",
+      "class": "Grade 9",
+      "batch": "Foundation Algebra",
+      "parentContact": "+92 321 7654321"
+    },
+    {
+      "id": "student-1783949175905",
+      "email": "imtiazsoomro123@gmail.com",
+      "name": "Imtiaz Ali",
+      "role": "student",
+      "passwordHash": "786786",
+      "class": "Grade 12",
+      "batch": "2k24",
+      "parentContact": "+92 3493346330"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-1",
+      "title": "📅 Summer Holiday Mock Exams Schedule",
+      "content": "Dear Students and Parents,\n\nThe Science and Mathematics mock exams for Grade 10 are scheduled for July 15, 2026. Please ensure you have completed all review materials in the \"Notes\" section. Timings will be from 9:00 AM to 12:00 PM.",
+      "createdAt": "2026-07-01T10:00:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    },
+    {
+      "id": "ann-2",
+      "title": "🔬 Physics Lab Practical Session Next Monday",
+      "content": "We will be conducting our mechanics lab simulation next Monday, July 6. Please read Chapter 4: Kinematics and bring your graphing calculators. Attendance is mandatory as this contributes to internal practical marks.",
+      "createdAt": "2026-06-28T14:30:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "title": "📈 Derivations & Limits Cheat Sheet",
+      "subject": "Mathematics",
+      "description": "A comprehensive formulas and cheat sheet covering limit properties, derivatives rules, and chain rule with worked-out examples.",
+      "fileName": "math_limits_cheatsheet.pdf",
+      "fileSize": "1.2 MB",
+      "fileContent": "VmVyeSBwb2xpc2hlZCBtYXRoZW1hdGljcyBjaGVhdCBzaGVldCBmb3IgbGltaXRzIGFuZCBkZXJpdmF0aXZlcy4uLg==",
+      "createdAt": "2026-06-29T09:15:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    },
+    {
+      "id": "note-2",
+      "title": "🌌 Kinematics and Newton's Laws",
+      "subject": "Physics",
+      "description": "Detailed class presentation slides on constant acceleration equations, projectile motion, and applications of Newton's laws of motion.",
+      "fileName": "physics_kinematics_v2.pdf",
+      "fileSize": "3.4 MB",
+      "fileContent": "UGh5c2ljcyBraW5lbWF0aWNzIGFuZCBuZXd0b24gbGF3cyBjbGFzcyBub3RlcyBhbmQgZXhhbXBsZXMuLi4=",
+      "createdAt": "2026-06-25T11:40:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test-1",
+      "title": "Calculus Fundamentals Quiz",
+      "subject": "Mathematics",
+      "maxMarks": 50,
+      "date": "2026-06-24",
+      "createdAt": "2026-06-20T08:00:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    },
+    {
+      "id": "test-2",
+      "title": "Linear Mechanics Midterm",
+      "subject": "Physics",
+      "maxMarks": 100,
+      "date": "2026-06-15",
+      "createdAt": "2026-06-10T08:00:00Z",
+      "createdBy": "Mrs. Sarah Connor"
+    }
+  ],
+  "results": [
+    {
+      "id": "res-1",
+      "testId": "test-1",
+      "testTitle": "Calculus Fundamentals Quiz",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "marksObtained": 46,
+      "maxMarks": 50,
+      "remarks": "Excellent work! Great logical steps in the derivative proof.",
+      "createdAt": "2026-06-25T15:00:00Z"
+    },
+    {
+      "id": "res-3",
+      "testId": "test-2",
+      "testTitle": "Linear Mechanics Midterm",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "marksObtained": 94,
+      "maxMarks": 100,
+      "remarks": "Incredible performance. Outstanding analytical skills displayed on the bonus projectile question.",
+      "createdAt": "2026-06-16T12:00:00Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "date": "2026-07-02",
+      "status": "Present"
+    },
+    {
+      "id": "att-3",
+      "studentId": "student-lily",
+      "studentName": "Lily Evans",
+      "date": "2026-07-02",
+      "status": "Present"
+    },
+    {
+      "id": "att-4",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "date": "2026-07-01",
+      "status": "Present"
+    },
+    {
+      "id": "att-6",
+      "studentId": "student-lily",
+      "studentName": "Lily Evans",
+      "date": "2026-07-01",
+      "status": "Present"
+    },
+    {
+      "id": "att-7",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "date": "2026-06-29",
+      "status": "Present"
+    },
+    {
+      "id": "att-9",
+      "studentId": "student-lily",
+      "studentName": "Lily Evans",
+      "date": "2026-06-29",
+      "status": "Absent",
+      "remarks": "Informed - Family appointment"
+    }
+  ],
+  "fees": [
+    {
+      "id": "fee-1",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "amount": 150,
+      "dueDate": "2026-07-05",
+      "status": "Paid",
+      "paidDate": "2026-07-01",
+      "month": "July 2026"
+    },
+    {
+      "id": "fee-3",
+      "studentId": "student-lily",
+      "studentName": "Lily Evans",
+      "amount": 120,
+      "dueDate": "2026-07-05",
+      "status": "Unpaid",
+      "month": "July 2026"
+    },
+    {
+      "id": "fee-4",
+      "studentId": "student-john",
+      "studentName": "John Connor",
+      "amount": 150,
+      "dueDate": "2026-06-05",
+      "status": "Paid",
+      "paidDate": "2026-06-03",
+      "month": "June 2026"
+    }
+  ]
+}
