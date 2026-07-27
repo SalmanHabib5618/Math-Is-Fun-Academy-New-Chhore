@@ -1,140 +1,207 @@
-# 📐 Math Is Fun Academy — Full-Stack Tuition Center Portal
+# 📚 Math Is Fun Academy
 
-A full-stack academy management platform tailored for **Math Is Fun Academy**. Designed to streamline administration, faculty workflows, student learning, and parent oversight through a role-based dashboard, AI math assistant, and automated Google Workspace integrations.
-
----
-
-## ✨ Features & Capabilities
-
-### 🔐 Role-Based Access Control (RBAC)
-* **Administrator**: Manage all users (Students, Faculty, Admins), handle fee invoices, manage database records, trigger Google Sheets synchronization/export, and broadcast announcements.
-* **Faculty / Teacher**: Record student attendance, create tests & upload test results, post study notes and worksheets, and track student performance.
-* **Student**: View personalized progress metrics, download subject study notes, view test grades & class rankings, check fee payment statuses, and use the AI Gem Math Assistant.
-* **Parent**: Monitor attendance percentages, review academic test scores, check fee invoice dues, and receive academy updates.
+**Math Is Fun Academy** is an AI-powered school and tuition management platform designed to simplify communication, reporting, and academic management for **Administrators, Teachers, Students, and Parents**. The platform combines modern web technologies with AI assistance to make school operations more efficient and improve the learning experience.
 
 ---
 
-### 📚 Core Portal Modules
+## 🌐 Live Demo
 
-1. **📊 Dashboard Overview**
-   * Role-specific metrics and statistics (total enrolled students, active faculty, pending fees, average attendance rate).
-   * Quick action cards and recent activity feeds.
-
-2. **📝 Study Notes & Materials**
-   * Upload and categorize study guides, formula sheets, and practice worksheets by class grade and subject.
-   * Tag search, category filtering, and direct material downloads.
-
-3. **✏️ Tests & Examinations**
-   * Schedule upcoming tests with subject, date, and maximum marks.
-   * Record individual student scores and auto-calculate pass percentages and rankings.
-
-4. **📅 Attendance Management**
-   * Date-wise student attendance logging (Present, Absent, Late).
-   * Filter records by batch, class, or individual student with monthly attendance percentage calculations.
-
-5. **💳 Fee Invoice Management**
-   * Generate fee invoices with due dates and payment tracking (Paid, Pending, Overdue).
-   * Record payment dates and track total revenue vs. outstanding dues.
-
-6. **📢 Announcements & Notices**
-   * Post academy-wide notices, exam schedules, and holiday announcements with pin/priority features.
-
-7. **🤖 AI Gem Math Assistant**
-   * Integrated AI tutor powered by **Google Gemini API** (`@google/genai`).
-   * Provides step-by-step solutions to math problems, explains complex theorems, and generates custom math quiz questions.
-
-8. **🌐 Google Workspace Automation**
-   * **Google Sheets Sync & Export**: Direct integration with Google Sheets API to export master data (Users, Fees, Attendance, Tests, Announcements) into spreadsheets stored in Google Drive.
-   * **Gmail Automation**: Automated dispatch of welcome emails upon account creation and password reset alerts via the Google Gmail API (`gmail.send` scope).
+**Live Application:**  
+https://math-is-fun-academy.vercel.app/
 
 ---
 
-## 🛠️ Tech Stack
+# 🎯 Problem Statement
 
-* **Frontend**: React 19, TypeScript, Tailwind CSS v4, Motion (`motion/react`), Lucide React icons.
-* **Backend**: Express.js (Node.js runtime), REST API endpoints.
-* **AI & Intelligence**: `@google/genai` (Google Gemini API).
-* **Workspace Integration**: `googleapis` (Gmail API, Google Sheets API, Google Drive API).
-* **Build & Dev Tools**: Vite, `esbuild`, `tsx`, TypeScript compiler.
+Managing student records, academic progress, attendance, and communication can be difficult when information is scattered across multiple systems or handled manually.
+
+**Math Is Fun Academy** solves this problem by providing a centralized platform where administrators, teachers, students, and parents can access important academic information in one place. The built-in AI assistant also helps users quickly understand reports and receive educational support.
 
 ---
 
-## 📁 Project Structure
+# 👥 Target Users
 
-```text
-├── server/
-│   ├── db.ts          # Local JSON database & persistence handler
-│   ├── sheets.ts      # Google Sheets & Drive API export logic
-│   └── gmail.ts       # Gmail API automated email sender
-├── server.ts          # Main Express API server & static asset serving
-├── src/
-│   ├── components/    # Modular React UI views (Dashboard, Fees, Attendance, etc.)
-│   ├── App.tsx        # Main application router and state holder
-│   ├── types.ts       # Shared TypeScript interfaces & types
-│   └── index.css      # Tailwind CSS styling entry
-├── data/              # Local storage for portal database and sync logs
-├── metadata.json      # Platform configuration & capability descriptors
-└── README.md          # Project documentation
+- 🏫 School Administrators
+- 👨‍🏫 Teachers
+- 👨‍🎓 Students
+- 👨‍👩‍👧 Parents
+
+---
+
+# ✨ Features
+
+### Administrator
+- Dashboard overview
+- Student management
+- Teacher management
+- Class management
+- Subject management
+- Attendance monitoring
+- Fee management
+- Academic reports
+- User management
+
+### Teacher
+- Manage classes
+- Mark attendance
+- View students
+- Track student performance
+- Generate reports
+
+### Student
+- View attendance
+- View academic reports
+- Check progress
+- Access learning information
+
+### Parent
+- Monitor child's attendance
+- View academic performance
+- Access progress reports
+- Stay informed about student activities
+
+### General Features
+- Responsive user interface
+- Secure authentication
+- Role-based access
+- Interactive dashboard
+- AI-powered educational assistant
+
+---
+
+# 🤖 AI Feature
+
+Math Is Fun Academy includes a **Custom Gemini AI Assistant** that helps administrators, teachers, students, and parents understand reports and receive educational guidance.
+
+### The AI can:
+
+- Explain academic reports
+- Help teachers understand student performance
+- Help students with learning questions
+- Help parents understand their child's progress
+- Answer educational questions
+- Provide clear explanations in simple language
+
+### AI Instructions / System Prompt
+
+> *Custom Gemini AI configured specifically for Math Is Fun Academy to assist Administrators, Teachers, Students, and Parents by providing accurate educational guidance, explaining reports, answering questions, and supporting better academic decision-making while maintaining a helpful and professional tone.*
+
+---
+
+# 🛠️ Technologies Used
+
+## Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Backend
+- Node.js
+- Express.js
+
+## AI
+- Custom Gemini AI
+
+## Database & Services
+- Firebase
+
+## Deployment
+- Vercel
+
+## Development Tools
+- Google AI Studio
+- GitHub
+- Visual Studio Code
+
+---
+
+# 📸 Screenshots
+
+> *(Add screenshots here before submission.)*
+
+### Home Page
+
+*(Insert Screenshot)*
+
+### Dashboard
+
+*(Insert Screenshot)*
+
+### AI Assistant
+
+*(Insert Screenshot)*
+
+---
+
+# 🚀 How to Run the Project
+
+## Clone the repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+```
+
+## Navigate to the project
+
+```bash
+cd YOUR_REPOSITORY
+```
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Start the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
 ```
 
 ---
 
-## 🚀 Getting Started
+# 📂 Project Structure
 
-### Prerequisites
-
-* **Node.js**: v18.x or higher
-* **npm** or **bun** package manager
-
-### Environment Variables
-
-Configure environment variables in your runtime or `.env` file:
-
-```env
-# Required for AI Gem Assistant features
-GEMINI_API_KEY=your_gemini_api_key_here
+```
+client/
+server/
+components/
+pages/
+public/
+package.json
+vite.config.ts
 ```
 
-### Installation & Development
+---
 
-1. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
+# 💡 Future Improvements
 
-2. **Start Development Server**:
-   ```bash
-   npm run dev
-   ```
-   The application will start on `http://localhost:3000`.
-
-3. **Type Checking & Linting**:
-   ```bash
-   npm run lint
-   ```
-
-4. **Build for Production**:
-   ```bash
-   npm run build
-   ```
-
-5. **Start Production Server**:
-   ```bash
-   npm start
-   ```
+- Online examinations
+- Assignment management
+- Notifications
+- Parent-teacher messaging
+- Mobile application
+- Analytics dashboard
+- Performance prediction using AI
 
 ---
 
-## 🔒 Security & OAuth Permissions
+# 👨‍💻 Author
 
-* **Gemini API**: Managed server-side in `server.ts` to prevent key exposure to client browsers.
-* **Google Workspace Scopes**:
-  * `https://www.googleapis.com/auth/gmail.send` (Sending automated notifications)
-  * `https://www.googleapis.com/auth/spreadsheets` (Creating and updating Google Sheets)
-  * `https://www.googleapis.com/auth/drive` (Storing exported files in Google Drive)
+**Salman Habib**
+
+Final Project – Act AI
 
 ---
 
-## 📄 License
+# 📄 License
 
-This project is maintained for **Math Is Fun Academy**. All rights reserved.
+This project is created for educational purposes as part of the Act AI Final Project.
