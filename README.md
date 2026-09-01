@@ -118,19 +118,25 @@ Math Is Fun Academy includes a **Custom Gemini AI Assistant** that helps adminis
 
 # 📸 Screenshots
 
-> *(Add screenshots here before submission.)*
-
 ### Home Page
 
-*(Insert Screenshot)*
+! [Home Page ](./Home.png.png)
 
-### Dashboard
+### Admin Dashboard
 
-*(Insert Screenshot)*
+! [ Admin Dashboard ](./Admin.png.png)
+
+### Teacher Dashboard
+
+! [Teacher Dashboard ](./Teacher.png.png)
+
+### Student Dashboard 
+
+! [Student Dashboard ](./Student.png.png)
 
 ### AI Assistant
 
-*(Insert Screenshot)*
+! [ AI-Assistant ](./AI-Assistant.png.png)
 
 ---
 
