@@ -7,7 +7,7 @@
 ## 🌐 Live Demo
 
 **Live Application:**  
-https://math-is-fun-academy-new-chhore.vercel.app
+https://math-is-fun-academy-new-chhore-d0h82kuxf-salman-habib.vercel.app
 
 ---
 
